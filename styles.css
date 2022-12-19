@@ -14,27 +14,46 @@ h3{
     font-size: 1.5  ;
 }
 
+h4 {
+    margin: 0;
+}
+
 .experienceWrapper{
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 .experienceTitle {
     justify-content: left;
     font-style: bold;
+    margin: 0;
 }
 
 .location{
     justify-content: right;
     font-style: italic;
+    margin: 0;
 }
 
-.experienceLocation{
+.experiencePosition{
     justify-content: left;
-    font-style: bold;
+    font-style: italic;
+    margin: 0;
 }
 
 .experienceDate{
     justify-content: right;
     font-style: italic;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.column{
+    flex:50%     
 }
