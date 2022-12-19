@@ -18,31 +18,31 @@ h4 {
     margin: 0;
 }
 
-.experienceWrapper{
+.wrapper{
     display: flex;
     justify-content: space-between;
     margin: 0;
 }
 
-.experienceTitle {
+.experienceA {
     justify-content: left;
     font-style: bold;
     margin: 0;
 }
 
-.location{
+.experienceD{
     justify-content: right;
     font-style: italic;
     margin: 0;
 }
 
-.experiencePosition{
+.experienceC{
     justify-content: left;
     font-style: italic;
     margin: 0;
 }
 
-.experienceDate{
+.experienceB{
     justify-content: right;
     font-style: italic;
     margin: 0;
@@ -51,9 +51,15 @@ h4 {
 .row {
     display: flex;
     justify-content: center;
-    background-color: grey;
+    background-color: lightgrey;
 }
+
+
 
 .column{
     flex:50%     
+}
+
+.column > ul > li {
+    padding: 5px;
 }
