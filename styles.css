@@ -1,0 +1,40 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.5  ;
+}
+
+.experienceWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experienceTitle {
+    justify-content: left;
+    font-style: bold;
+}
+
+.location{
+    justify-content: right;
+    font-style: italic;
+}
+
+.experienceLocation{
+    justify-content: left;
+    font-style: bold;
+}
+
+.experienceDate{
+    justify-content: right;
+    font-style: italic;
+}
